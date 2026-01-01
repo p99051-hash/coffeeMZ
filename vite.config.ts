@@ -3,10 +3,13 @@ import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default {
-  base: '/coffee123/',
+  base: '/coffeeMZ/',
 }
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ 
+  base: '/coffeeMZ/',
+  plugins: [react()]
+}) => {
     const env = loadEnv(mode, '.', '');
     return {
       server: {
