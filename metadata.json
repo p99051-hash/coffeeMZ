@@ -1,0 +1,7 @@
+{
+  "name": "COFFEE 123",
+  "description": "三步沖出大師級咖啡：拍照、確認、沖煮。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
